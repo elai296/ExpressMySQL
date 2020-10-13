@@ -1,4 +1,4 @@
-#Node.js, Express & MySQL Tutorial.
+#Node.js, Express & MySQL 
 
 
 In this video, we will use the Express framework with HTML, CSS, and JavaScript to build a simple CRUD (Create, Read, Update, Delete) App.
