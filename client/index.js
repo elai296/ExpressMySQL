@@ -5,6 +5,10 @@ document.addEventListener('DOMContentLoaded', function () {
     
 });
 
+// POST is always for creating a resource ( does not matter if it was duplicated )
+// PUT is for checking if resource is exists then update , else create new resource.
+// PATCH is always for update a resource.
+
 document.querySelector('table tbody').addEventListener('click', function(event) {
     if (event.target.className === "delete-row-btn") {
         deleteRowById(event.target.dataset.id);
